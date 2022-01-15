@@ -19,6 +19,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
+    /* position: relative; */
 }
 .nav{
     display: flex;
@@ -102,12 +103,18 @@ body{
 /* --------------------------------------------------
                      Cart Desig 
 ------------------------------------ */
+.collection-container{
+    /* width: 1047px; */
+    height: 1635px;
+    position: relative;
+}
 .conatiner h1 {
     margin-top: 75px;
     display: flex;
     justify-content: center;
 }
 .collection{
+    /* position: relative; */
     display: grid;
     margin: 45px 0;
     grid-template-columns: repeat(3, 1fr);
@@ -154,4 +161,17 @@ body{
     line-height: 1.5;
     color: #787885;
     font-weight: 700;
+}
+.see-more{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    color: #E02C6DDE;
+}
+.see-more span{
+    padding-right: 10px;
 }
