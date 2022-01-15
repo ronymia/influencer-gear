@@ -32,3 +32,14 @@ body{
     list-style: none;
     margin-left: 10px;
 }
+.header-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.section-right img{
+    width: 440px;
+    height: 414px;
+    position: absolute;
+}
