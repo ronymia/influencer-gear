@@ -217,7 +217,7 @@ body{
 }
 
 /* ---------------------------------------------
-             Feture details Styles
+             Form Design styles
 -------------------------------------- */
 
 .feture-container{
@@ -242,44 +242,25 @@ body{
 }
 #login-text{
     width: 20em;
+    height: 2em;
     margin: 0.5em 0;
+    border-radius: 0.5em;
+    border: 1px solid  #e4397856;
+    ;
 }
-/*.feture-details h1{
-    color: #0A0826;
+#h1{
+    display: flex;
+    justify-content: center;
 }
-.feture-details p{
-    color: #6C6C6C;
-    font-weight: 700;
-    font-size: 1em;
-    line-height: 1.8;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.join-button{
-    outline: none;
+#login-buttom{
+    background-color: #E02C6DDE;
     border: 0;
-    display: flex;
-    align-items: center;
-    background-color: #E02C6D;
-    width: 150px;
-    height: 44px;
+    color: #FFFFFF;
+    border-radius: 0.5em;
+    font-size: 19px;
+    cursor: pointer;
+}
 
-}
-.now{
-    color: #FFFFFF;
-    margin-left: 30px;
-}
-.r-arrow{
-    color: #FFFFFF;
-    font-size: 22px;
-    margin-left: 15px; */
-}
-/* ---------------------------------------------------
-                      Form Design 
-------------------------------------- */
-.form-container{
-    display: flex;
-}
 /* -----------------------------------------
                  Footer Design
 ------------------------------------  */
