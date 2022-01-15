@@ -102,6 +102,17 @@ body{
 /* --------------------------------------------------
                      Cart Desig 
 ------------------------------------ */
+.conatiner h1 {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+.collection{
+    display: grid;
+    margin: 45px 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
 .cart{
     width: 329px;
     height: 476px;
