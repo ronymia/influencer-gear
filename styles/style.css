@@ -1,0 +1,34 @@
+/* -----------------------------------------
+                         import Font 
+---------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+}
+/* ------------------------------------------
+         Header nav style 
+------------------------------*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    /* flex-direction: row; */
+}
+.navigation li{
+    list-style: none;
+    margin-left: 10px;
+}
