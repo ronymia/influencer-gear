@@ -36,10 +36,32 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    height: calc(100vh - 80px);
+
+}
+.section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section-left h1{
+    color: #3A3A3A;
+    font-size: 52px;
+}
+.section-left p{
+    margin: 15px 0;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.camera-img{
+    padding: 80px 80px;
 }
 .section-right img{
-    width: 440px;
-    height: 414px;
+    display: flex;
     position: absolute;
+
 }
