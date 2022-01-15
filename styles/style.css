@@ -99,3 +99,48 @@ body{
 .logos img{
     margin: 16px 24px;
 }
+/* --------------------------------------------------
+                     Cart Desig 
+------------------------------------ */
+.cart{
+    width: 329px;
+    height: 476px;
+    padding: 15px 17px 20px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.cart-info{
+    margin: 10px 0;
+}
+.cart-tittle{
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+}
+.cart-price{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+.raating .fa-star{
+    color: #FB8200;
+    font-size: 14px;
+}
+.fa-star-half-alt{
+    color: #FB8200;
+    font-size: 14px;
+}
+.raating-point{
+    display: inline;
+    font-family: Roboto;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.cart-details p{
+    font-family: Inter;
+    margin: 10px 0;
+    line-height: 1.5;
+    color: #787885;
+    font-weight: 700;
+}
