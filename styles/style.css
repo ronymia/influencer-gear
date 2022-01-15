@@ -136,7 +136,7 @@ body{
 ------------------------------------ */
 .collection-container{
     /* width: 1047px; */
-    height: 1635px;
+    height: 1700px;
     position: relative;
 }
 .conatiner h1 {
@@ -153,32 +153,35 @@ body{
 }
 .cart{
     width: 329px;
-    height: 476px;
+    height: 495px;
     padding: 15px 17px 20px 15px;
     border-radius: 5px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .cart-info{
     margin: 10px 0;
+    
 }
 .cart-tittle{
     font-size: 28px;
     font-weight: 700;
     color: #18191F;
+    margin-bottom: 10px;
 }
 .cart-price{
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+    margin-bottom: 10px
 }
 .raating .fa-star{
     color: #FB8200;
-    font-size: 14px;
+    font-size: 10px;
 }
 .fa-star-half-alt{
     color: #FB8200;
-    font-size: 14px;
+    font-size: 10px;
 }
 .raating-point{
     display: inline;
@@ -188,13 +191,13 @@ body{
 }
 .cart-details p{
     font-family: Inter;
-    margin: 10px 0;
+    font-size: 0.9em;
     line-height: 1.5;
     color: #787885;
     font-weight: 700;
 }
 .see-more{
-    
+    font-size: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,6 +205,9 @@ body{
     right: 30px;
     bottom: 0;
     color: #E02C6DDE;
+}
+.arrow{
+    font-size: 1.5em;
 }
 .collection .see-more .fa-arrow-right2{
     color: #E02C6DDE;
@@ -218,13 +224,27 @@ body{
     display: flex;
     margin: 90px 0;
 }
-.feture-details{
+.form-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+#log-form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 127px;
+    font-size: 1.5em;
+
 }
-.feture-details h1{
+.log-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login-text{
+    width: 20em;
+    margin: 0.5em 0;
+}
+/*.feture-details h1{
     color: #0A0826;
 }
 .feture-details p{
@@ -252,11 +272,18 @@ body{
 .r-arrow{
     color: #FFFFFF;
     font-size: 22px;
-    margin-left: 15px;
+    margin-left: 15px; */
+}
+/* ---------------------------------------------------
+                      Form Design 
+------------------------------------- */
+.form-container{
+    display: flex;
 }
 /* -----------------------------------------
                  Footer Design
 ------------------------------------  */
+
 .footer{
     width: 100wh;
     height: 180px;
