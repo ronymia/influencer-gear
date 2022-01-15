@@ -209,6 +209,35 @@ body{
 .see-more span{
     padding-right: 10px;
 }
+
+/* ---------------------------------------------
+             Feture details Styles
+-------------------------------------- */
+
+.feture-container{
+    display: flex;
+    margin: 90px 0;
+}
+.feture-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 127px;
+}
+.feture-details h1{
+    color: #0A0826;
+}
+.feture-details p{
+    color: #6C6C6C;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.8;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* -----------------------------------------
+                 Footer Design
+------------------------------------  */
 .footer{
     width: 100wh;
     height: 180px;
